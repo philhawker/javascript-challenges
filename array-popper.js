@@ -4,7 +4,7 @@ class Popper {
         this.atBeginning = true
     }
     togglePopper () {
-        this.atBeginning = !this.atBeginning
+        this.atBeginning = !this.atBeginning         // !this is the opposite or false
         return this.atBeginning ? this.arr.pop() : this.arr.shift()
     }
 }
