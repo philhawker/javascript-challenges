@@ -1,6 +1,6 @@
 class Popper {
     constructor(arr) {
-        this.arr = arr
+        this.arr = arr         // These lines maintain the classes beginning state
         this.atBeginning = true
     }
     togglePopper () {
