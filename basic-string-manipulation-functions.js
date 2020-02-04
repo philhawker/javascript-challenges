@@ -7,7 +7,7 @@ const numOne = 30
 const numTwo = 22
 
 function stringChecker(s) {
-    if ( typeof s == typeof 's') {
+    if ( typeof s == 'string') {
         return true
     } else {
         return false
