@@ -36,14 +36,17 @@ console.log(capitalizeMe(sentence))
 function largerNum(num1, num2) {
     if (num1 > num2) {
         return num1
+    } else if (num1 < num2) {
+        return num2
     } else {
-        return false
+        return `The number ${num1} is the same number as ${num2}`
     }
 }
 
 console.log(largerNum(numOne, numTwo))
 console.log(largerNum(88, 100))
 console.log(largerNum(88, 3))
+console.log(largerNum(88, 88))
 
 
 // # Write a javascript function that adds two strings together
