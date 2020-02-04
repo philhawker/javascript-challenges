@@ -55,8 +55,8 @@ const stringOne = 'Hello sir.'
 const stringTwo = 'How are you today?'
 
 function stringAdder(str1, str2) {
-    newStr = str1 + ' ' + str2
-    return newStr
+    return `${str1} ${str2}`
+    return str1 + ' ' + str2
 }
 
 console.log(stringAdder(stringOne, stringTwo))
