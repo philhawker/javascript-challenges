@@ -9,12 +9,13 @@ class Popper {
     }
 }
 
-const ap = new Popper([1, 2, 3, 4, 5, 6])
+const poppedArray = new Popper([1, 2, 3, 4, 5, 6])
 
-console.log(ap.togglePopper())
-console.log(ap.togglePopper())
-console.log(ap.togglePopper())
-console.log(ap.togglePopper())
-console.log(ap.togglePopper())
-console.log(ap.togglePopper())
-console.log(ap.togglePopper())
+console.log(poppedArray.togglePopper())
+console.log(poppedArray.togglePopper())
+console.log(poppedArray.togglePopper())
+console.log(poppedArray.togglePopper())
+console.log(poppedArray.togglePopper())
+console.log(poppedArray.togglePopper())
+console.log(poppedArray.togglePopper())
+
