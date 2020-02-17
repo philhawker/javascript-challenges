@@ -14,4 +14,4 @@ const toUpper = str => {
 console.log(toUpper(greeting))
 console.log(toUpper(dinner))
 console.log(toUpper(longStr))
-console.log(toUpper('do you always smell this bad'))
+console.log(toUpper('do you always smell this bad?'))
